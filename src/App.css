@@ -43,7 +43,7 @@
   color: white;
   display: flex;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 4rem;
 }
 .mainlogo {
@@ -63,21 +63,27 @@
 
 /* Card start */
 .card_div {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  box-shadow: 1px 1px 8px rgb(69, 68, 68);
+  background-color: rgba(221, 230, 234, 0.895);
   height: 10rem;
-  width: 28rem !important;
+  width: 27rem !important;
   margin: 66px 20px;
   padding: 0px 10px !important;
 }
 .card_img {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 9rem;
   height: 9rem;
   margin-top: 6px;
 }
+.card_img img{
+  border-radius: 10px;
+
+}
 .user_name {
   width: 63%;
-  height: 2rem;
+  height: 3rem;
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -85,4 +91,31 @@
   font-size: x-large;
   font-weight: 700;
 }
+.rigth_section {
+  width: 18rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.third_section_heading {
+  font-weight: 500;
+  /* font-style: italic; */
+}
+
+.third_section_body {
+  font-size: larger;
+  font-style: italic;
+}
+.fourth_section {
+  width: 18rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 0.1rem;
+}
+.fourth_section button {
+  border-radius: 20px;
+}
+
 /* Card end */
